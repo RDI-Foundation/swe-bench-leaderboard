@@ -1,0 +1,44 @@
+{
+  manifest_version: "0.3.0",
+  experimental_features: ["docker"],
+
+  config_schema: {
+    type: "object",
+    properties: {},
+    required: [],
+    additionalProperties: false,
+  },
+
+  program: {
+    image: "ghcr.io/rdi-foundation/swe-bench-green-agent:latest",
+    entrypoint: "uv run python src/server.py --host 0.0.0.0 --port 9009",
+
+    env: {
+      AMBER_HINT_PROXY: "${slots.proxy}",
+    },
+
+    mounts: [
+      { path: "/var/run/docker.sock", from: "framework.docker" },
+    ],
+
+    network: {
+      endpoints: [
+        { name: "a2a_endpoint", port: 9009 },
+      ],
+    },
+  },
+
+  slots: {
+    proxy: { kind: "a2a" },
+  },
+
+  provides: {
+    a2a: { kind: "a2a", endpoint: "a2a_endpoint" },
+    results: { kind: "http", endpoint: "a2a_endpoint" },
+  },
+
+  exports: {
+    a2a: "a2a",
+    results: "results",
+  },
+}
