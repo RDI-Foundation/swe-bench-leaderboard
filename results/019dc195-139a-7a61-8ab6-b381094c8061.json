@@ -1,0 +1,969 @@
+{
+  "status": "completed",
+  "participants": {
+    "green": "019d8684-8230-71d2-a17b-099f5839398b",
+    "coding_agent": "019dc12d-8296-7112-8514-a77b8b9bbf42"
+  },
+  "results": [
+    {
+      "status": "completed",
+      "accuracy": 0.0,
+      "passed": 0,
+      "total": 5,
+      "participant": {
+        "name": "mini-swe-agent-baseline",
+        "version": "0.1.0",
+        "description": "Baseline coding agent built on Princeton's mini-swe-agent, driven by openai/gpt-5.5. Single ReAct loop with bash tool use inside the per-task SWE-bench Docker container."
+      },
+      "results": [
+        {
+          "instance_id": "instance_NodeBB__NodeBB-04998908ba6721d64eba79ae3b65a351dcfbc5b5-vnan",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '1dedc920-d6e1-4670-b461-599b182df53b', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_qutebrowser__qutebrowser-f91ace96223cac8161c16dd061907e138fe85111-v059c6fdc75567943479b23ebca7c07b5e9a7f34c",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '5315535f-0979-48c5-8ea7-d3e15cc18fec', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_NodeBB__NodeBB-51d8f3b195bddb13a13ddc0de110722774d9bb1b-vf2cf3cbd463b7ad942381f1c6d077626485a1e9e",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': 'e9a7b222-c49c-4baa-b1b7-ffb708d06f0c', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_qutebrowser__qutebrowser-c580ebf0801e5a3ecabc54f327498bb753c6d5f2-v2ef375ac784985212b1805e1d0431dc8f1b3c171",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '53830907-877c-4233-beca-1ff846218fc8', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_ansible__ansible-f327e65d11bb905ed9f15996024f857a95592629-vba6da65a0f3baefda7a058ebbd0a8dcafb8512f5",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '8d43377c-12e1-4b76-bada-ef044758bdba', 'status': 'failed'}"
+        }
+      ]
+    },
+    {
+      "status": "completed",
+      "accuracy": 0.0,
+      "passed": 0,
+      "total": 5,
+      "participant": {
+        "name": "mini-swe-agent-baseline",
+        "version": "0.1.0",
+        "description": "Baseline coding agent built on Princeton's mini-swe-agent, driven by openai/gpt-5.5. Single ReAct loop with bash tool use inside the per-task SWE-bench Docker container."
+      },
+      "results": [
+        {
+          "instance_id": "instance_ansible__ansible-a26c325bd8f6e2822d9d7e62f77a424c1db4fbf6-v0f01c69f1e2528b935359cfe578530722bca2c59",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '61c49a41-fdbc-4891-bd11-24f9c3ba6990', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_internetarchive__openlibrary-4a5d2a7d24c9e4c11d3069220c0685b736d5ecde-v13642507b4fc1f8d234172bf8129942da2c2ca26",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': 'dfd24563-32cf-47cc-aa29-3c69a30f98ae', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_qutebrowser__qutebrowser-f631cd4422744160d9dcf7a0455da532ce973315-v35616345bb8052ea303186706cec663146f0f184",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': 'fd36e697-457d-419a-8727-85abb5108190', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_gravitational__teleport-3fa6904377c006497169945428e8197158667910-v626ec2a48416b10a88641359a169d99e935ff037",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': 'f9cfcc8e-92b3-4e54-b139-feda36059001', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_navidrome__navidrome-7073d18b54da7e53274d11c9e2baef1242e8769e",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '7d2ea70a-81e2-4756-970e-cff2766318a5', 'status': 'failed'}"
+        }
+      ]
+    },
+    {
+      "status": "completed",
+      "accuracy": 0.0,
+      "passed": 0,
+      "total": 5,
+      "participant": {
+        "name": "mini-swe-agent-baseline",
+        "version": "0.1.0",
+        "description": "Baseline coding agent built on Princeton's mini-swe-agent, driven by openai/gpt-5.5. Single ReAct loop with bash tool use inside the per-task SWE-bench Docker container."
+      },
+      "results": [
+        {
+          "instance_id": "instance_internetarchive__openlibrary-dbbd9d539c6d4fd45d5be9662aa19b6d664b5137-v08d8e8889ec945ab821fb156c04c7d2e2810debb",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': 'feef6b1c-23c9-4dd5-977d-55734c6f4fab', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_ansible__ansible-395e5e20fab9cad517243372fa3c3c5d9e09ab2a-v7eee2454f617569fd6889f2211f75bc02a35f9f8",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': 'ad2aa1a1-2a59-4edd-85a5-ebf1d2abd59b', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_gravitational__teleport-c782838c3a174fdff80cafd8cd3b1aa4dae8beb2",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '93371050-9ebf-46cd-931d-c7d2cb1aa3fb', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_qutebrowser__qutebrowser-96b997802e942937e81d2b8a32d08f00d3f4bc4e-v5fc38aaf22415ab0b70567368332beee7955b367",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '0697fac6-c72a-4b7c-be83-0bab1a7bc12a', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_element-hq__element-web-33e8edb3d508d6eefb354819ca693b7accc695e7",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '28c88b63-297e-4979-ab64-0a214fad2751', 'status': 'failed'}"
+        }
+      ]
+    },
+    {
+      "status": "completed",
+      "accuracy": 0.0,
+      "passed": 0,
+      "total": 5,
+      "participant": {
+        "name": "mini-swe-agent-baseline",
+        "version": "0.1.0",
+        "description": "Baseline coding agent built on Princeton's mini-swe-agent, driven by openai/gpt-5.5. Single ReAct loop with bash tool use inside the per-task SWE-bench Docker container."
+      },
+      "results": [
+        {
+          "instance_id": "instance_future-architect__vuls-407407d306e9431d6aa0ab566baa6e44e5ba2904",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': 'fe47d611-d9e0-4b28-8a33-a7cf241d96aa', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_internetarchive__openlibrary-111347e9583372e8ef91c82e0612ea437ae3a9c9-v2d9a6c849c60ed19fd0858ce9e40b7cc8e097e59",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '16fc13a3-6fe6-4fe1-96db-3e5d4476dae9', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_future-architect__vuls-e6c0da61324a0c04026ffd1c031436ee2be9503a",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': 'ff82c1c7-7bfb-445f-a3c9-1c547630d0ae', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_gravitational__teleport-6eaaf3a27e64f4ef4ef855bd35d7ec338cf17460-v626ec2a48416b10a88641359a169d99e935ff037",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': 'd08e3f34-39d4-471c-b3eb-1f0b36c3c28e', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_qutebrowser__qutebrowser-fd6790fe8c02b144ab2464f1fc8ab3d02ce3c476-v2ef375ac784985212b1805e1d0431dc8f1b3c171",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': 'fa633218-168f-4231-8dc9-e58fa38f4eca', 'status': 'failed'}"
+        }
+      ]
+    },
+    {
+      "status": "completed",
+      "accuracy": 0.0,
+      "passed": 0,
+      "total": 5,
+      "participant": {
+        "name": "mini-swe-agent-baseline",
+        "version": "0.1.0",
+        "description": "Baseline coding agent built on Princeton's mini-swe-agent, driven by openai/gpt-5.5. Single ReAct loop with bash tool use inside the per-task SWE-bench Docker container."
+      },
+      "results": [
+        {
+          "instance_id": "instance_gravitational__teleport-e6d86299a855687b21970504fbf06f52a8f80c74-vce94f93ad1030e3136852817f2423c1b3ac37bc4",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '6ac2b7c4-9554-4081-84e6-1c51b15c3a74', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_internetarchive__openlibrary-8a5a63af6e0be406aa6c8c9b6d5f28b2f1b6af5a-v0f5aece3601a5b4419f7ccec1dbda2071be28ee4",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': 'a53e087d-e8f6-4413-b1e7-429ed00c54e7', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_navidrome__navidrome-b65e76293a917ee2dfc5d4b373b1c62e054d0dca",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': 'dda7b49e-ea46-4ae6-9193-57d3b148bd14', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_internetarchive__openlibrary-25858f9f0c165df25742acf8309ce909773f0cdd-v13642507b4fc1f8d234172bf8129942da2c2ca26",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': 'b9355088-c6ca-48a3-a7c3-e063caeb7ddc', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_element-hq__element-web-5dfde12c1c1c0b6e48f17e3405468593e39d9492-vnan",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': 'ace34107-9251-4572-bac7-cd533220438a', 'status': 'failed'}"
+        }
+      ]
+    },
+    {
+      "status": "completed",
+      "accuracy": 0.0,
+      "passed": 0,
+      "total": 5,
+      "participant": {
+        "name": "mini-swe-agent-baseline",
+        "version": "0.1.0",
+        "description": "Baseline coding agent built on Princeton's mini-swe-agent, driven by openai/gpt-5.5. Single ReAct loop with bash tool use inside the per-task SWE-bench Docker container."
+      },
+      "results": [
+        {
+          "instance_id": "instance_protonmail__webclients-2c3559cad02d1090985dba7e8eb5a129144d9811",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '666b1772-2ed5-4ac9-bc75-dbb677d56f4d', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_NodeBB__NodeBB-397835a05a8e2897324e566b41c5e616e172b4af-v89631a1cdb318276acb48860c5d78077211397c6",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '4aa6a61c-55b7-490d-9e73-9a6814f49def', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_flipt-io__flipt-e42da21a07a5ae35835ec54f74004ebd58713874",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '5aa42122-590f-4f7e-abff-1019e1f17339', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_flipt-io__flipt-3b2c25ee8a3ac247c3fad13ad8d64ace34ec8ee7",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': 'c4cd09b9-e96c-4bdf-9622-f15570704315', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_NodeBB__NodeBB-a5afad27e52fd336163063ba40dcadc80233ae10-vd59a5728dfc977f44533186ace531248c2917516",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': 'e7723cd9-10f7-4f82-9c99-d1d6bb1ec570', 'status': 'failed'}"
+        }
+      ]
+    },
+    {
+      "status": "completed",
+      "accuracy": 0.0,
+      "passed": 0,
+      "total": 5,
+      "participant": {
+        "name": "mini-swe-agent-baseline",
+        "version": "0.1.0",
+        "description": "Baseline coding agent built on Princeton's mini-swe-agent, driven by openai/gpt-5.5. Single ReAct loop with bash tool use inside the per-task SWE-bench Docker container."
+      },
+      "results": [
+        {
+          "instance_id": "instance_gravitational__teleport-eefac60a350930e5f295f94a2d55b94c1988c04e-vee9b09fb20c43af7e520f57e9239bbcf46b7113d",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '1619d1cf-6df1-40d1-ab60-682ef473294b', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_NodeBB__NodeBB-f9ce92df988db7c1ae55d9ef96d247d27478bc70-vf2cf3cbd463b7ad942381f1c6d077626485a1e9e",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '28b7cad2-0bd7-4aaf-8eb0-1f388253a04f', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_navidrome__navidrome-8e640bb8580affb7e0ea6225c0bbe240186b6b08",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': 'da63d705-2b89-4431-ac17-f596908ebfd9', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_future-architect__vuls-2c84be80b65d022c262956cd26fc79d8bb2f7010",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '3a9796d1-c60f-484e-a886-2aea535f7860', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_flipt-io__flipt-c12967bc73fdf02054cf3ef8498c05e25f0a18c0",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': 'd98b95ea-ded0-4778-87aa-845d1e9d14db', 'status': 'failed'}"
+        }
+      ]
+    },
+    {
+      "status": "completed",
+      "accuracy": 0.0,
+      "passed": 0,
+      "total": 5,
+      "participant": {
+        "name": "mini-swe-agent-baseline",
+        "version": "0.1.0",
+        "description": "Baseline coding agent built on Princeton's mini-swe-agent, driven by openai/gpt-5.5. Single ReAct loop with bash tool use inside the per-task SWE-bench Docker container."
+      },
+      "results": [
+        {
+          "instance_id": "instance_qutebrowser__qutebrowser-0fc6d1109d041c69a68a896db87cf1b8c194cef7-v2ef375ac784985212b1805e1d0431dc8f1b3c171",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': 'f660eb04-10ad-499b-800b-b9c3d94be8c1', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_ansible__ansible-b748edea457a4576847a10275678127895d2f02f-v1055803c3a812189a1133297f7f5468579283f86",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '2c0e43f7-8212-4235-8e75-5ec4a1b36da4', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_gravitational__teleport-0ac7334939981cf85b9591ac295c3816954e287e",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '2ac49d1c-7ce9-4e84-a77d-00898ab4a3f6', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_gravitational__teleport-b5d8169fc0a5e43fee2616c905c6d32164654dc6",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '477dcf24-0f57-4908-bed8-541f38b249ba', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_future-architect__vuls-86b60e1478e44d28b1aff6b9ac7e95ceb05bc5fc",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': 'a62f0403-6a00-4eab-b86d-57a4fad182dd', 'status': 'failed'}"
+        }
+      ]
+    },
+    {
+      "status": "completed",
+      "accuracy": 0.0,
+      "passed": 0,
+      "total": 5,
+      "participant": {
+        "name": "mini-swe-agent-baseline",
+        "version": "0.1.0",
+        "description": "Baseline coding agent built on Princeton's mini-swe-agent, driven by openai/gpt-5.5. Single ReAct loop with bash tool use inside the per-task SWE-bench Docker container."
+      },
+      "results": [
+        {
+          "instance_id": "instance_qutebrowser__qutebrowser-70248f256f93ed9b1984494d0a1a919ddd774892-v2ef375ac784985212b1805e1d0431dc8f1b3c171",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': 'b67eab06-a2d7-48a3-8c8a-9197aa32dbc9', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_protonmail__webclients-6dcf0d0b0f7965ad94be3f84971afeb437f25b02",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: Command '['docker', 'run', '-d', '--name', 'minisweagent-5c237efc', '-w', '/testbed', '--rm', 'jefzda/sweap-images:protonmail.webclients-protonmail__webclients-6dcf0d0b0f7965ad94be3f84971afeb437f25b02', 'sleep', '2h']' timed out after 120 seconds\", 'context_id': 'ff9e278c-1dd0-4d8c-a59a-e0f61b51e075', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_ansible__ansible-e40889e7112ae00a21a2c74312b330e67a766cc0-v1055803c3a812189a1133297f7f5468579283f86",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '4be2e3dc-351f-4402-b679-35ee1c658cd7', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_navidrome__navidrome-27875ba2dd1673ddf8affca526b0664c12c3b98b",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '1bc0cfea-cf6e-4fe2-910b-22467bf0238b', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_internetarchive__openlibrary-11838fad1028672eb975c79d8984f03348500173-v0f5aece3601a5b4419f7ccec1dbda2071be28ee4",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': 'faf4c281-d2fb-4f91-9ea6-0610ca813798', 'status': 'failed'}"
+        }
+      ]
+    },
+    {
+      "status": "completed",
+      "accuracy": 0.0,
+      "passed": 0,
+      "total": 5,
+      "participant": {
+        "name": "mini-swe-agent-baseline",
+        "version": "0.1.0",
+        "description": "Baseline coding agent built on Princeton's mini-swe-agent, driven by openai/gpt-5.5. Single ReAct loop with bash tool use inside the per-task SWE-bench Docker container."
+      },
+      "results": [
+        {
+          "instance_id": "instance_ansible__ansible-5e369604e1930b1a2e071fecd7ec5276ebd12cb1-v0f01c69f1e2528b935359cfe578530722bca2c59",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '7b5673c7-734e-4135-bcde-c3c8ea68288c', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_element-hq__element-web-72a8f8f03b1a01bb70ef8a5bb61759416991b32c-vnan",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '2fa5a2d5-52df-4071-a05c-08b91b5730d3', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_internetarchive__openlibrary-b4f7c185ae5f1824ac7f3a18e8adf6a4b468459c-v08d8e8889ec945ab821fb156c04c7d2e2810debb",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '4d27ecf1-de32-4f6d-97af-b9818ee27a7e', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_gravitational__teleport-3ff75e29fb2153a2637fe7f83e49dc04b1c99c9f",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '43da5089-12e0-459b-b04d-1bc411fae2d1', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_flipt-io__flipt-f808b4dd6e36b9dc8b011eb26b196f4e2cc64c41",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '28ff6e93-8ebd-422d-a776-77b2b31a5200', 'status': 'failed'}"
+        }
+      ]
+    },
+    {
+      "status": "completed",
+      "accuracy": 0.0,
+      "passed": 0,
+      "total": 5,
+      "participant": {
+        "name": "mini-swe-agent-baseline",
+        "version": "0.1.0",
+        "description": "Baseline coding agent built on Princeton's mini-swe-agent, driven by openai/gpt-5.5. Single ReAct loop with bash tool use inside the per-task SWE-bench Docker container."
+      },
+      "results": [
+        {
+          "instance_id": "instance_future-architect__vuls-5af1a227339e46c7abf3f2815e4c636a0c01098e",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '606c88bd-db21-46a6-8178-f8c4b1d014a6', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_element-hq__element-web-5e8488c2838ff4268f39db4a8cca7d74eecf5a7e-vnan",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '82f100fd-f37b-45fa-a6fa-3fed8f0d0b8d', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_ansible__ansible-be59caa59bf47ca78a4760eb7ff38568372a8260-v1055803c3a812189a1133297f7f5468579283f86",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '9754931d-ae9d-429b-920e-b6ef4e74856b', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_protonmail__webclients-08bb09914d0d37b0cd6376d4cab5b77728a43e7b",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '75af26e9-c81c-4c7f-b682-0cf6cbfbb584', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_ansible__ansible-b5e0293645570f3f404ad1dbbe5f006956ada0df-v0f01c69f1e2528b935359cfe578530722bca2c59",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '04301e07-4c34-4ae0-8768-cf67c8d6e9dd', 'status': 'failed'}"
+        }
+      ]
+    },
+    {
+      "status": "completed",
+      "accuracy": 0.0,
+      "passed": 0,
+      "total": 5,
+      "participant": {
+        "name": "mini-swe-agent-baseline",
+        "version": "0.1.0",
+        "description": "Baseline coding agent built on Princeton's mini-swe-agent, driven by openai/gpt-5.5. Single ReAct loop with bash tool use inside the per-task SWE-bench Docker container."
+      },
+      "results": [
+        {
+          "instance_id": "instance_internetarchive__openlibrary-00bec1e7c8f3272c469a58e1377df03f955ed478-v13642507b4fc1f8d234172bf8129942da2c2ca26",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '11790317-220c-410f-99d0-064b68fcd18a', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_flipt-io__flipt-756f00f79ba8abf9fe53f3c6c818123b42eb7355",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '9624045a-199c-4f02-b595-710f326a3318', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_internetarchive__openlibrary-5069b09e5f64428dce59b33455c8bb17fe577070-v8717e18970bcdc4e0d2cea3b1527752b21e74866",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '8cc36491-ed7b-43c8-b712-bbaf175c160e', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_element-hq__element-web-41dfec20bfe9b62cddbbbf621bef2e9aa9685157-vnan",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '09b4998d-4c20-4e0b-ba14-6789e43729bd', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_flipt-io__flipt-b3cd920bbb25e01fdb2dab66a5a913363bc62f6c",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '811c96c9-ca59-4c01-82c8-1495042b6440', 'status': 'failed'}"
+        }
+      ]
+    },
+    {
+      "status": "completed",
+      "accuracy": 0.0,
+      "passed": 0,
+      "total": 5,
+      "participant": {
+        "name": "mini-swe-agent-baseline",
+        "version": "0.1.0",
+        "description": "Baseline coding agent built on Princeton's mini-swe-agent, driven by openai/gpt-5.5. Single ReAct loop with bash tool use inside the per-task SWE-bench Docker container."
+      },
+      "results": [
+        {
+          "instance_id": "instance_navidrome__navidrome-8d56ec898e776e7e53e352cb9b25677975787ffc",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '3ed7bdd0-6f31-42ff-8875-494a822450b3', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_internetarchive__openlibrary-5c6c22f3d2edf2f1b10f5dc335e32cb6a5f40341-v76304ecdb3a5954fcf13feb710e8c40fcf24b73c",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '64946e2b-ee32-41cc-982f-8b1c1a2324f0', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_ansible__ansible-1b70260d5aa2f6c9782fd2b848e8d16566e50d85-vba6da65a0f3baefda7a058ebbd0a8dcafb8512f5",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': 'b3864ecc-7f25-496f-8b0a-000b5b470232', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_element-hq__element-web-404c412bcb694f04ba0c4d5479541203d701bca0-vnan",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '3a708e17-41dc-4fc2-ade4-f17c6f1fce3a', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_flipt-io__flipt-6fe76d024ee0c50ddb09c86f4ae0bd4c208fd65f",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': 'f3bf77c0-963f-4185-9fbd-fbcc55840cfc', 'status': 'failed'}"
+        }
+      ]
+    },
+    {
+      "status": "completed",
+      "accuracy": 0.0,
+      "passed": 0,
+      "total": 5,
+      "participant": {
+        "name": "mini-swe-agent-baseline",
+        "version": "0.1.0",
+        "description": "Baseline coding agent built on Princeton's mini-swe-agent, driven by openai/gpt-5.5. Single ReAct loop with bash tool use inside the per-task SWE-bench Docker container."
+      },
+      "results": [
+        {
+          "instance_id": "instance_qutebrowser__qutebrowser-473a15f7908f2bb6d670b0e908ab34a28d8cf7e2-v363c8a7e5ccdf6968fc7ab84a2053ac78036691d",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': 'a445130b-a04e-4cc3-9e91-14426cd0f8d5', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_element-hq__element-web-a692fe21811f88d92e8f7047fc615e4f1f986b0f-vnan",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '6858ff9b-54c2-4509-8213-3befb03b5873', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_flipt-io__flipt-84806a178447e766380cc66b14dee9c6eeb534f4",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '8b1c2abd-a14e-44c7-93f0-2d3dcb98ee10', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_gravitational__teleport-b8fbb2d1e90ffcde88ed5fe9920015c1be075788-vee9b09fb20c43af7e520f57e9239bbcf46b7113d",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '25971f09-5547-4e65-a1ee-bb4272d96372', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_element-hq__element-web-75c2c1a572fa45d1ea1d1a96e9e36e303332ecaa-vnan",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': 'fcdedbd8-c2ec-4944-8f72-e002a6a75ecf', 'status': 'failed'}"
+        }
+      ]
+    },
+    {
+      "status": "completed",
+      "accuracy": 0.0,
+      "passed": 0,
+      "total": 5,
+      "participant": {
+        "name": "mini-swe-agent-baseline",
+        "version": "0.1.0",
+        "description": "Baseline coding agent built on Princeton's mini-swe-agent, driven by openai/gpt-5.5. Single ReAct loop with bash tool use inside the per-task SWE-bench Docker container."
+      },
+      "results": [
+        {
+          "instance_id": "instance_future-architect__vuls-0ec945d0510cdebf92cdd8999f94610772689f14",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '9105e02e-5fb5-462d-a158-8b5bdae47f86', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_ansible__ansible-f86c58e2d235d8b96029d102c71ee2dfafd57997-v0f01c69f1e2528b935359cfe578530722bca2c59",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': 'c2da26b1-1b6c-4817-86b7-6a43b134590c', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_NodeBB__NodeBB-f48ed3658aab7be0f1165d4c1f89af48d7865189-v0495b863a912fbff5749c67e860612b91825407c",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '3cfd24a2-e64d-4e2c-a087-699d04525f42', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_qutebrowser__qutebrowser-f7753550f2c1dcb2348e4779fd5287166754827e-v059c6fdc75567943479b23ebca7c07b5e9a7f34c",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '365978c1-174e-42ac-a4a6-183e307fba34', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_future-architect__vuls-8d5ea98e50cf616847f4e5a2df300395d1f719e9",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': 'bdbb2f7b-cf69-4c44-8786-28f35c3bbf16', 'status': 'failed'}"
+        }
+      ]
+    },
+    {
+      "status": "completed",
+      "accuracy": 0.0,
+      "passed": 0,
+      "total": 5,
+      "participant": {
+        "name": "mini-swe-agent-baseline",
+        "version": "0.1.0",
+        "description": "Baseline coding agent built on Princeton's mini-swe-agent, driven by openai/gpt-5.5. Single ReAct loop with bash tool use inside the per-task SWE-bench Docker container."
+      },
+      "results": [
+        {
+          "instance_id": "instance_flipt-io__flipt-e50808c03e4b9d25a6a78af9c61a3b1616ea356b",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': 'c17cfacb-762a-48b8-8a64-f54673d2fd27', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_gravitational__teleport-2be514d3c33b0ae9188e11ac9975485c853d98bb-vce94f93ad1030e3136852817f2423c1b3ac37bc4",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '243ff00d-48d0-4042-9718-f6b071931e4c', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_future-architect__vuls-be7b9114cc9545e68fb0ee7bc63d7ec53d1a00ad",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': 'e2768b22-dc93-4ffc-9ca2-9d2ae27532c4', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_internetarchive__openlibrary-f8cc11d9c1575fdba5ac66aee0befca970da8d64-v13642507b4fc1f8d234172bf8129942da2c2ca26",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': 'da6d1e16-31bd-450d-86b7-256aa984a9a7', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_future-architect__vuls-e52fa8d6ed1d23e36f2a86e5d3efe9aa057a1b0d",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '64177a3f-7ec4-47b9-b29f-a1c5755d4191', 'status': 'failed'}"
+        }
+      ]
+    },
+    {
+      "status": "completed",
+      "accuracy": 0.0,
+      "passed": 0,
+      "total": 5,
+      "participant": {
+        "name": "mini-swe-agent-baseline",
+        "version": "0.1.0",
+        "description": "Baseline coding agent built on Princeton's mini-swe-agent, driven by openai/gpt-5.5. Single ReAct loop with bash tool use inside the per-task SWE-bench Docker container."
+      },
+      "results": [
+        {
+          "instance_id": "instance_ansible__ansible-e64c6c1ca50d7d26a8e7747d8eb87642e767cd74-v0f01c69f1e2528b935359cfe578530722bca2c59",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '2725b5e6-56be-4325-bfea-02fc02ade3e7', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_internetarchive__openlibrary-1351c59fd43689753de1fca32c78d539a116ffc1-v29f82c9cf21d57b242f8d8b0e541525d259e2d63",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '471fd8f7-da22-4dd6-a545-b8c06caf02a2', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_element-hq__element-web-2760bfc8369f1bee640d6d7a7e910783143d4c5f-vnan",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': 'f0946149-8a8b-42fd-aa76-60811a3725b7', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_tutao__tutanota-da4edb7375c10f47f4ed3860a591c5e6557f7b5c-vbc0d9ba8f0071fbe982809910959a6ff8884dbbf",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': 'aad4c869-4c2a-4c61-9d35-e9927f05fddc', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_element-hq__element-web-1077729a19c0ce902e713cf6fab42c91fb7907f1-vnan",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': 'e0b30f6d-3f67-4b87-9c06-60a46539cc35', 'status': 'failed'}"
+        }
+      ]
+    },
+    {
+      "status": "completed",
+      "accuracy": 0.0,
+      "passed": 0,
+      "total": 5,
+      "participant": {
+        "name": "mini-swe-agent-baseline",
+        "version": "0.1.0",
+        "description": "Baseline coding agent built on Princeton's mini-swe-agent, driven by openai/gpt-5.5. Single ReAct loop with bash tool use inside the per-task SWE-bench Docker container."
+      },
+      "results": [
+        {
+          "instance_id": "instance_element-hq__element-web-71fe08ea0f159ccb707904d87f0a4aef205a167c-vnan",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '478f8664-59b1-4ce1-8cb4-8bf766091061', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_tutao__tutanota-09c2776c0fce3db5c6e18da92b5a45dce9f013aa-vbc0d9ba8f0071fbe982809910959a6ff8884dbbf",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': 'd63820d2-a343-44f6-9d56-baffb3dfb216', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_navidrome__navidrome-97434c1789a6444b30aae5ff5aa124a96a88f504",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '799761ff-86d1-4bfc-a807-f12fe59ebc85', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_qutebrowser__qutebrowser-85b867fe8d4378c8e371f055c70452f546055854-v2ef375ac784985212b1805e1d0431dc8f1b3c171",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '5d6ffbc1-d29d-4745-9be3-6820e9d26a61', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_gravitational__teleport-1a77b7945a022ab86858029d30ac7ad0d5239d00-vee9b09fb20c43af7e520f57e9239bbcf46b7113d",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': 'd9fd5cf0-83ed-4481-a87c-ae74322e1e1c', 'status': 'failed'}"
+        }
+      ]
+    },
+    {
+      "status": "completed",
+      "accuracy": 0.0,
+      "passed": 0,
+      "total": 5,
+      "participant": {
+        "name": "mini-swe-agent-baseline",
+        "version": "0.1.0",
+        "description": "Baseline coding agent built on Princeton's mini-swe-agent, driven by openai/gpt-5.5. Single ReAct loop with bash tool use inside the per-task SWE-bench Docker container."
+      },
+      "results": [
+        {
+          "instance_id": "instance_qutebrowser__qutebrowser-e64622cd2df5b521342cf4a62e0d4cb8f8c9ae5a-v363c8a7e5ccdf6968fc7ab84a2053ac78036691d",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': 'f6128eed-6a57-419e-8563-57b5c17a63ec', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_flipt-io__flipt-b22f5f02e40b225b6b93fff472914973422e97c6",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': 'ca56a568-96cc-46b8-9b08-ce3bd230aaa6', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_element-hq__element-web-f0359a5c180b8fec4329c77adcf967c8d3b7b787-vnan",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': 'f158a32d-f540-4b5b-b0eb-b93cc36c5c0a', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_protonmail__webclients-09fcf0dbdb87fa4f4a27700800ee4a3caed8b413",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '72b2ec63-a080-4e99-b195-ff12749ce1e8', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_navidrome__navidrome-5001518260732e36d9a42fb8d4c054b28afab310",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '1481ad61-d83a-4647-b6ba-e83b69213a0c', 'status': 'failed'}"
+        }
+      ]
+    },
+    {
+      "status": "completed",
+      "accuracy": 0.0,
+      "passed": 0,
+      "total": 5,
+      "participant": {
+        "name": "mini-swe-agent-baseline",
+        "version": "0.1.0",
+        "description": "Baseline coding agent built on Princeton's mini-swe-agent, driven by openai/gpt-5.5. Single ReAct loop with bash tool use inside the per-task SWE-bench Docker container."
+      },
+      "results": [
+        {
+          "instance_id": "instance_ansible__ansible-12734fa21c08a0ce8c84e533abdc560db2eb1955-v7eee2454f617569fd6889f2211f75bc02a35f9f8",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '5d1eec52-1556-4552-901a-d5b2b76fdafc', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_navidrome__navidrome-fa85e2a7816a6fe3829a4c0d8e893e982b0985da",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': 'a8cc4a9f-407d-4b73-93da-9f3364fad223', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_NodeBB__NodeBB-2657804c1fb6b84dc76ad3b18ecf061aaab5f29f-vf2cf3cbd463b7ad942381f1c6d077626485a1e9e",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '7a22b510-9e8d-4681-96ad-d19ae46607c9', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_ansible__ansible-0fd88717c953b92ed8a50495d55e630eb5d59166-vba6da65a0f3baefda7a058ebbd0a8dcafb8512f5",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': 'be10c96a-3add-4680-a8c3-be3094982468', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_future-architect__vuls-6eff6a9329a65cc412e79b8f82444dfa3d0f0b5a",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: litellm.BadRequestError: OpenAIException - Unsupported value: 'temperature' does not support 0 with this model. Only the default (1) value is supported.\", 'context_id': '6a69f3cc-d97d-49e2-9ff1-8e1f63e19ac6', 'status': 'failed'}"
+        }
+      ]
+    }
+  ]
+}
