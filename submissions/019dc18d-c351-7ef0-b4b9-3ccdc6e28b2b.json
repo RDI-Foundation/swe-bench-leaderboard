@@ -1,0 +1,80 @@
+{
+  "manifest_version": "0.1.0",
+  "config_schema": {
+    "type": "object",
+    "properties": {
+      "coding_agent_ANTHROPIC_API_KEY": {
+        "type": "string",
+        "secret": true
+      },
+      "coding_agent_MINI_SWE_MODEL": {
+        "type": "string"
+      },
+      "coding_agent_OPENAI_API_KEY": {
+        "type": "string",
+        "secret": true
+      }
+    },
+    "required": [
+      "coding_agent_OPENAI_API_KEY",
+      "coding_agent_ANTHROPIC_API_KEY",
+      "coding_agent_MINI_SWE_MODEL"
+    ],
+    "additionalProperties": false
+  },
+  "components": {
+    "gateway": {
+      "manifest": "https://raw.githubusercontent.com/RDI-Foundation/agentbeats-gateway/refs/tags/v0.3/amber-manifest.json5",
+      "config": {
+        "assessment_config": {
+          "num_shards": 5,
+          "num_instances": 5
+        },
+        "participant_roles": {
+          "green": "green",
+          "purple1": "coding_agent"
+        },
+        "callback_urls": {}
+      }
+    },
+    "green": {
+      "manifest": "https://raw.githubusercontent.com/RDI-Foundation/swe-bench-green-agent/refs/heads/main/amber-manifest.json5",
+      "config": {}
+    },
+    "coding_agent": {
+      "manifest": "https://raw.githubusercontent.com/durga-sandeep/agentbeats-mini-swe-baseline/main/amber-manifest.json5",
+      "config": {
+        "ANTHROPIC_API_KEY": "${config.coding_agent_ANTHROPIC_API_KEY}",
+        "MINI_SWE_MODEL": "${config.coding_agent_MINI_SWE_MODEL}",
+        "OPENAI_API_KEY": "${config.coding_agent_OPENAI_API_KEY}"
+      }
+    }
+  },
+  "bindings": [
+    {
+      "to": "#gateway.green",
+      "from": "#green.a2a"
+    },
+    {
+      "to": "#gateway.purple1",
+      "from": "#coding_agent.a2a"
+    },
+    {
+      "to": "#green.proxy",
+      "from": "#gateway.proxy",
+      "weak": true
+    }
+  ],
+  "exports": {
+    "results": "#gateway.results"
+  },
+  "metadata": {
+    "agentbeats_ids": {
+      "green": "019d8684-8230-71d2-a17b-099f5839398b",
+      "coding_agent": "019dc12d-8296-7112-8514-a77b8b9bbf42"
+    }
+  },
+  "experimental_features": [
+    "docker"
+  ]
+}
