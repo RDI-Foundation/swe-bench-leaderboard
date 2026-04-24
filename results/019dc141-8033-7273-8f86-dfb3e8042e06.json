@@ -1,0 +1,969 @@
+{
+  "status": "completed",
+  "participants": {
+    "green": "019d8684-8230-71d2-a17b-099f5839398b",
+    "coding_agent": "019dc12d-8296-7112-8514-a77b8b9bbf42"
+  },
+  "results": [
+    {
+      "status": "completed",
+      "accuracy": 0.0,
+      "passed": 0,
+      "total": 5,
+      "participant": {
+        "name": "mini-swe-agent-baseline",
+        "version": "0.1.0",
+        "description": "Baseline coding agent built on Princeton's mini-swe-agent, driven by anthropic/claude-sonnet-4-6. Single ReAct loop with bash tool use inside the per-task SWE-bench Docker container."
+      },
+      "results": [
+        {
+          "instance_id": "instance_NodeBB__NodeBB-04998908ba6721d64eba79ae3b65a351dcfbc5b5-vnan",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': 'ba8f55de-4393-4d17-8ebf-94a2d21e08c5', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_qutebrowser__qutebrowser-f91ace96223cac8161c16dd061907e138fe85111-v059c6fdc75567943479b23ebca7c07b5e9a7f34c",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '4443195f-2609-400f-9586-adbcdda9bd23', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_NodeBB__NodeBB-51d8f3b195bddb13a13ddc0de110722774d9bb1b-vf2cf3cbd463b7ad942381f1c6d077626485a1e9e",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '61e5afe0-1848-421f-b989-bf10b0dcef7a', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_qutebrowser__qutebrowser-c580ebf0801e5a3ecabc54f327498bb753c6d5f2-v2ef375ac784985212b1805e1d0431dc8f1b3c171",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '5272add3-69f0-4d11-b46e-2efdd4db485b', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_ansible__ansible-f327e65d11bb905ed9f15996024f857a95592629-vba6da65a0f3baefda7a058ebbd0a8dcafb8512f5",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': 'b130b639-796d-4494-a116-2c1bfaa2fcec', 'status': 'failed'}"
+        }
+      ]
+    },
+    {
+      "status": "completed",
+      "accuracy": 0.0,
+      "passed": 0,
+      "total": 5,
+      "participant": {
+        "name": "mini-swe-agent-baseline",
+        "version": "0.1.0",
+        "description": "Baseline coding agent built on Princeton's mini-swe-agent, driven by anthropic/claude-sonnet-4-6. Single ReAct loop with bash tool use inside the per-task SWE-bench Docker container."
+      },
+      "results": [
+        {
+          "instance_id": "instance_ansible__ansible-a26c325bd8f6e2822d9d7e62f77a424c1db4fbf6-v0f01c69f1e2528b935359cfe578530722bca2c59",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': 'ab291069-71f0-4273-bf8a-d2e376082357', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_internetarchive__openlibrary-4a5d2a7d24c9e4c11d3069220c0685b736d5ecde-v13642507b4fc1f8d234172bf8129942da2c2ca26",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': 'c9a67073-fba0-4283-9b7b-0f1fbd7d81b4', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_qutebrowser__qutebrowser-f631cd4422744160d9dcf7a0455da532ce973315-v35616345bb8052ea303186706cec663146f0f184",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '87c3631a-f450-496e-9c7b-eb3cfa0d8b4b', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_gravitational__teleport-3fa6904377c006497169945428e8197158667910-v626ec2a48416b10a88641359a169d99e935ff037",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '89936034-94cd-49b8-aae0-ede222d7ee3a', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_navidrome__navidrome-7073d18b54da7e53274d11c9e2baef1242e8769e",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '1a183513-52ac-4124-8d3f-dbb7436838de', 'status': 'failed'}"
+        }
+      ]
+    },
+    {
+      "status": "completed",
+      "accuracy": 0.0,
+      "passed": 0,
+      "total": 5,
+      "participant": {
+        "name": "mini-swe-agent-baseline",
+        "version": "0.1.0",
+        "description": "Baseline coding agent built on Princeton's mini-swe-agent, driven by anthropic/claude-sonnet-4-6. Single ReAct loop with bash tool use inside the per-task SWE-bench Docker container."
+      },
+      "results": [
+        {
+          "instance_id": "instance_internetarchive__openlibrary-dbbd9d539c6d4fd45d5be9662aa19b6d664b5137-v08d8e8889ec945ab821fb156c04c7d2e2810debb",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '94611c2f-fd89-47f4-b792-43a6bed35da8', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_ansible__ansible-395e5e20fab9cad517243372fa3c3c5d9e09ab2a-v7eee2454f617569fd6889f2211f75bc02a35f9f8",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': 'de857638-a348-45e1-ab45-dec17a854c55', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_gravitational__teleport-c782838c3a174fdff80cafd8cd3b1aa4dae8beb2",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '7cd83bbd-0032-4690-b5dc-66a2511a37a3', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_qutebrowser__qutebrowser-96b997802e942937e81d2b8a32d08f00d3f4bc4e-v5fc38aaf22415ab0b70567368332beee7955b367",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '3f99f5bd-6b73-4b12-9783-c1fe31e122b6', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_element-hq__element-web-33e8edb3d508d6eefb354819ca693b7accc695e7",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '34ccc3ef-6e1c-4590-b357-98511468993b', 'status': 'failed'}"
+        }
+      ]
+    },
+    {
+      "status": "completed",
+      "accuracy": 0.0,
+      "passed": 0,
+      "total": 5,
+      "participant": {
+        "name": "mini-swe-agent-baseline",
+        "version": "0.1.0",
+        "description": "Baseline coding agent built on Princeton's mini-swe-agent, driven by anthropic/claude-sonnet-4-6. Single ReAct loop with bash tool use inside the per-task SWE-bench Docker container."
+      },
+      "results": [
+        {
+          "instance_id": "instance_future-architect__vuls-407407d306e9431d6aa0ab566baa6e44e5ba2904",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': 'f9e5ff63-6250-487e-81dc-ed0c5b8b41dc', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_internetarchive__openlibrary-111347e9583372e8ef91c82e0612ea437ae3a9c9-v2d9a6c849c60ed19fd0858ce9e40b7cc8e097e59",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': 'e0c6e5f0-b64d-45e7-adb9-61aebd53ae9f', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_future-architect__vuls-e6c0da61324a0c04026ffd1c031436ee2be9503a",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '3c4114f9-0034-4874-a6e7-47481c010277', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_gravitational__teleport-6eaaf3a27e64f4ef4ef855bd35d7ec338cf17460-v626ec2a48416b10a88641359a169d99e935ff037",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '2c727dec-1eca-45ba-a531-7860c3aeeb27', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_qutebrowser__qutebrowser-fd6790fe8c02b144ab2464f1fc8ab3d02ce3c476-v2ef375ac784985212b1805e1d0431dc8f1b3c171",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '91516605-78c2-42d1-8f72-7e7aa566b8a2', 'status': 'failed'}"
+        }
+      ]
+    },
+    {
+      "status": "completed",
+      "accuracy": 0.0,
+      "passed": 0,
+      "total": 5,
+      "participant": {
+        "name": "mini-swe-agent-baseline",
+        "version": "0.1.0",
+        "description": "Baseline coding agent built on Princeton's mini-swe-agent, driven by anthropic/claude-sonnet-4-6. Single ReAct loop with bash tool use inside the per-task SWE-bench Docker container."
+      },
+      "results": [
+        {
+          "instance_id": "instance_gravitational__teleport-e6d86299a855687b21970504fbf06f52a8f80c74-vce94f93ad1030e3136852817f2423c1b3ac37bc4",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': 'ca0459b4-e132-4963-a51f-8870e4917f21', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_internetarchive__openlibrary-8a5a63af6e0be406aa6c8c9b6d5f28b2f1b6af5a-v0f5aece3601a5b4419f7ccec1dbda2071be28ee4",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '654472a7-a73d-45dd-86d8-73c461e3db07', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_navidrome__navidrome-b65e76293a917ee2dfc5d4b373b1c62e054d0dca",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '729a5469-e965-488d-aa3a-b8e2f40025d2', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_internetarchive__openlibrary-25858f9f0c165df25742acf8309ce909773f0cdd-v13642507b4fc1f8d234172bf8129942da2c2ca26",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': 'f33c4e0f-2bff-4181-98a1-0dc11760ffde', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_element-hq__element-web-5dfde12c1c1c0b6e48f17e3405468593e39d9492-vnan",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '02199a33-4888-46f9-9d8b-5a93ebb49648', 'status': 'failed'}"
+        }
+      ]
+    },
+    {
+      "status": "completed",
+      "accuracy": 0.0,
+      "passed": 0,
+      "total": 5,
+      "participant": {
+        "name": "mini-swe-agent-baseline",
+        "version": "0.1.0",
+        "description": "Baseline coding agent built on Princeton's mini-swe-agent, driven by anthropic/claude-sonnet-4-6. Single ReAct loop with bash tool use inside the per-task SWE-bench Docker container."
+      },
+      "results": [
+        {
+          "instance_id": "instance_protonmail__webclients-2c3559cad02d1090985dba7e8eb5a129144d9811",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': 'd81af8f9-bcc1-4adc-a2dc-b2ab1b3c232f', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_NodeBB__NodeBB-397835a05a8e2897324e566b41c5e616e172b4af-v89631a1cdb318276acb48860c5d78077211397c6",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '3413b7fc-5ce1-49fd-8876-335f46bddb43', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_flipt-io__flipt-e42da21a07a5ae35835ec54f74004ebd58713874",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '83112292-1617-45dc-ab6d-b122b0689e84', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_flipt-io__flipt-3b2c25ee8a3ac247c3fad13ad8d64ace34ec8ee7",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '2517e60e-7390-4d83-91db-07186017792e', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_NodeBB__NodeBB-a5afad27e52fd336163063ba40dcadc80233ae10-vd59a5728dfc977f44533186ace531248c2917516",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '0ea0ce28-c2f3-4a21-92ac-ffa6dd3a711f', 'status': 'failed'}"
+        }
+      ]
+    },
+    {
+      "status": "completed",
+      "accuracy": 0.0,
+      "passed": 0,
+      "total": 5,
+      "participant": {
+        "name": "mini-swe-agent-baseline",
+        "version": "0.1.0",
+        "description": "Baseline coding agent built on Princeton's mini-swe-agent, driven by anthropic/claude-sonnet-4-6. Single ReAct loop with bash tool use inside the per-task SWE-bench Docker container."
+      },
+      "results": [
+        {
+          "instance_id": "instance_gravitational__teleport-eefac60a350930e5f295f94a2d55b94c1988c04e-vee9b09fb20c43af7e520f57e9239bbcf46b7113d",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: Command '['docker', 'run', '-d', '--name', 'minisweagent-01beeaf7', '-w', '/testbed', '--rm', 'jefzda/sweap-images:gravitational.teleport-gravitational__teleport-eefac60a350930e5f295f94a2d55b94c1988c04e-vee9b09fb20c43af7e520f57e9239bbcf46b7113', 'sleep', '2h']' timed out after 120 seconds\", 'context_id': '0e650cd3-203f-4b3b-ac90-f29d857fc24c', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_NodeBB__NodeBB-f9ce92df988db7c1ae55d9ef96d247d27478bc70-vf2cf3cbd463b7ad942381f1c6d077626485a1e9e",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': 'c3fec736-7af0-40b0-83bc-8aaa39b64277', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_navidrome__navidrome-8e640bb8580affb7e0ea6225c0bbe240186b6b08",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '2a5181d1-ea10-4afb-9df0-59e47b75c527', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_future-architect__vuls-2c84be80b65d022c262956cd26fc79d8bb2f7010",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '667d3d19-0e9d-49d0-bf12-fa457bcab55a', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_flipt-io__flipt-c12967bc73fdf02054cf3ef8498c05e25f0a18c0",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': 'e480286f-9e6b-45a0-ab15-aadf709da004', 'status': 'failed'}"
+        }
+      ]
+    },
+    {
+      "status": "completed",
+      "accuracy": 0.0,
+      "passed": 0,
+      "total": 5,
+      "participant": {
+        "name": "mini-swe-agent-baseline",
+        "version": "0.1.0",
+        "description": "Baseline coding agent built on Princeton's mini-swe-agent, driven by anthropic/claude-sonnet-4-6. Single ReAct loop with bash tool use inside the per-task SWE-bench Docker container."
+      },
+      "results": [
+        {
+          "instance_id": "instance_qutebrowser__qutebrowser-0fc6d1109d041c69a68a896db87cf1b8c194cef7-v2ef375ac784985212b1805e1d0431dc8f1b3c171",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '66249b44-1f43-4257-a0fe-41c9bafd9ca8', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_ansible__ansible-b748edea457a4576847a10275678127895d2f02f-v1055803c3a812189a1133297f7f5468579283f86",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': 'eef6b3e4-a802-4331-8098-9957264ede7e', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_gravitational__teleport-0ac7334939981cf85b9591ac295c3816954e287e",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': 'd7eb9c7c-8d78-4174-9bdb-3492f8a546c0', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_gravitational__teleport-b5d8169fc0a5e43fee2616c905c6d32164654dc6",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': 'c711a89b-edec-4fa5-abf4-330645351587', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_future-architect__vuls-86b60e1478e44d28b1aff6b9ac7e95ceb05bc5fc",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '073428eb-599c-4453-bf01-c1fa082447ea', 'status': 'failed'}"
+        }
+      ]
+    },
+    {
+      "status": "completed",
+      "accuracy": 0.0,
+      "passed": 0,
+      "total": 5,
+      "participant": {
+        "name": "mini-swe-agent-baseline",
+        "version": "0.1.0",
+        "description": "Baseline coding agent built on Princeton's mini-swe-agent, driven by anthropic/claude-sonnet-4-6. Single ReAct loop with bash tool use inside the per-task SWE-bench Docker container."
+      },
+      "results": [
+        {
+          "instance_id": "instance_qutebrowser__qutebrowser-70248f256f93ed9b1984494d0a1a919ddd774892-v2ef375ac784985212b1805e1d0431dc8f1b3c171",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': 'b2589baa-d81b-488e-bb36-325b0cba1eab', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_protonmail__webclients-6dcf0d0b0f7965ad94be3f84971afeb437f25b02",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': \"Agent error: Command '['docker', 'run', '-d', '--name', 'minisweagent-cb4c8906', '-w', '/testbed', '--rm', 'jefzda/sweap-images:protonmail.webclients-protonmail__webclients-6dcf0d0b0f7965ad94be3f84971afeb437f25b02', 'sleep', '2h']' timed out after 120 seconds\", 'context_id': 'f39002fb-035f-4517-ad0b-88dc17e6cda7', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_ansible__ansible-e40889e7112ae00a21a2c74312b330e67a766cc0-v1055803c3a812189a1133297f7f5468579283f86",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '6007c861-9c1e-4258-9341-ba2c0fb50e4d', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_navidrome__navidrome-27875ba2dd1673ddf8affca526b0664c12c3b98b",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '15c6c78a-f6e8-46e2-a53f-bc6a04624f15', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_internetarchive__openlibrary-11838fad1028672eb975c79d8984f03348500173-v0f5aece3601a5b4419f7ccec1dbda2071be28ee4",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': 'a05dbfdc-4e03-41c5-84c6-0b3998d43be5', 'status': 'failed'}"
+        }
+      ]
+    },
+    {
+      "status": "completed",
+      "accuracy": 0.0,
+      "passed": 0,
+      "total": 5,
+      "participant": {
+        "name": "mini-swe-agent-baseline",
+        "version": "0.1.0",
+        "description": "Baseline coding agent built on Princeton's mini-swe-agent, driven by anthropic/claude-sonnet-4-6. Single ReAct loop with bash tool use inside the per-task SWE-bench Docker container."
+      },
+      "results": [
+        {
+          "instance_id": "instance_ansible__ansible-5e369604e1930b1a2e071fecd7ec5276ebd12cb1-v0f01c69f1e2528b935359cfe578530722bca2c59",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': 'e3784e75-b5a4-4435-a5e8-559b99a9ac5f', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_element-hq__element-web-72a8f8f03b1a01bb70ef8a5bb61759416991b32c-vnan",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '69554482-4dc2-4716-baa3-cf0e290f6494', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_internetarchive__openlibrary-b4f7c185ae5f1824ac7f3a18e8adf6a4b468459c-v08d8e8889ec945ab821fb156c04c7d2e2810debb",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '091934ec-b887-410b-a9b0-269a69453140', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_gravitational__teleport-3ff75e29fb2153a2637fe7f83e49dc04b1c99c9f",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': 'f0462a9c-8ba2-4f0b-b13c-3e19740d3872', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_flipt-io__flipt-f808b4dd6e36b9dc8b011eb26b196f4e2cc64c41",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': 'f6bb8b9c-e9ac-4681-883a-4ecc377d9c66', 'status': 'failed'}"
+        }
+      ]
+    },
+    {
+      "status": "completed",
+      "accuracy": 0.0,
+      "passed": 0,
+      "total": 5,
+      "participant": {
+        "name": "mini-swe-agent-baseline",
+        "version": "0.1.0",
+        "description": "Baseline coding agent built on Princeton's mini-swe-agent, driven by anthropic/claude-sonnet-4-6. Single ReAct loop with bash tool use inside the per-task SWE-bench Docker container."
+      },
+      "results": [
+        {
+          "instance_id": "instance_future-architect__vuls-5af1a227339e46c7abf3f2815e4c636a0c01098e",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': 'dc97aa7b-412e-479e-a503-913228f767ea', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_element-hq__element-web-5e8488c2838ff4268f39db4a8cca7d74eecf5a7e-vnan",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '8ceb6a45-7a03-43e9-8526-e2893e8f82d6', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_ansible__ansible-be59caa59bf47ca78a4760eb7ff38568372a8260-v1055803c3a812189a1133297f7f5468579283f86",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': 'c28b47fa-33a5-4162-bfb6-e7811f75dddf', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_protonmail__webclients-08bb09914d0d37b0cd6376d4cab5b77728a43e7b",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '068f5a57-20bd-4d96-a0b9-43e1f757f1fa', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_ansible__ansible-b5e0293645570f3f404ad1dbbe5f006956ada0df-v0f01c69f1e2528b935359cfe578530722bca2c59",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '6e6461e3-106f-4e3d-84f7-1a41a414a750', 'status': 'failed'}"
+        }
+      ]
+    },
+    {
+      "status": "completed",
+      "accuracy": 0.0,
+      "passed": 0,
+      "total": 5,
+      "participant": {
+        "name": "mini-swe-agent-baseline",
+        "version": "0.1.0",
+        "description": "Baseline coding agent built on Princeton's mini-swe-agent, driven by anthropic/claude-sonnet-4-6. Single ReAct loop with bash tool use inside the per-task SWE-bench Docker container."
+      },
+      "results": [
+        {
+          "instance_id": "instance_internetarchive__openlibrary-00bec1e7c8f3272c469a58e1377df03f955ed478-v13642507b4fc1f8d234172bf8129942da2c2ca26",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': 'a998b489-36de-4daf-b36f-932c8c3a7b4a', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_flipt-io__flipt-756f00f79ba8abf9fe53f3c6c818123b42eb7355",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': 'dcf753d1-1c79-44cb-8599-df320eaa6e8e', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_internetarchive__openlibrary-5069b09e5f64428dce59b33455c8bb17fe577070-v8717e18970bcdc4e0d2cea3b1527752b21e74866",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': 'cde12a38-3872-4d22-8bf0-709b68ca27b7', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_element-hq__element-web-41dfec20bfe9b62cddbbbf621bef2e9aa9685157-vnan",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': 'db211f5c-fdb8-48c3-b915-9d5bc0184e70', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_flipt-io__flipt-b3cd920bbb25e01fdb2dab66a5a913363bc62f6c",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '68697a91-769e-4e4c-9682-fe92ff988686', 'status': 'failed'}"
+        }
+      ]
+    },
+    {
+      "status": "completed",
+      "accuracy": 0.0,
+      "passed": 0,
+      "total": 5,
+      "participant": {
+        "name": "mini-swe-agent-baseline",
+        "version": "0.1.0",
+        "description": "Baseline coding agent built on Princeton's mini-swe-agent, driven by anthropic/claude-sonnet-4-6. Single ReAct loop with bash tool use inside the per-task SWE-bench Docker container."
+      },
+      "results": [
+        {
+          "instance_id": "instance_navidrome__navidrome-8d56ec898e776e7e53e352cb9b25677975787ffc",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '19fcd933-4082-414b-815c-3843fd7ab0a3', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_internetarchive__openlibrary-5c6c22f3d2edf2f1b10f5dc335e32cb6a5f40341-v76304ecdb3a5954fcf13feb710e8c40fcf24b73c",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '9d7ccaec-b145-4551-8020-f515b0bc6e84', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_ansible__ansible-1b70260d5aa2f6c9782fd2b848e8d16566e50d85-vba6da65a0f3baefda7a058ebbd0a8dcafb8512f5",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '229f7526-ff7f-4805-9b69-f6636da6bbd0', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_element-hq__element-web-404c412bcb694f04ba0c4d5479541203d701bca0-vnan",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': 'fd745f16-9473-4429-811c-a1aa4bf2f2bc', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_flipt-io__flipt-6fe76d024ee0c50ddb09c86f4ae0bd4c208fd65f",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '537fbceb-7f76-4aeb-9764-f1fd9ceaee59', 'status': 'failed'}"
+        }
+      ]
+    },
+    {
+      "status": "completed",
+      "accuracy": 0.0,
+      "passed": 0,
+      "total": 5,
+      "participant": {
+        "name": "mini-swe-agent-baseline",
+        "version": "0.1.0",
+        "description": "Baseline coding agent built on Princeton's mini-swe-agent, driven by anthropic/claude-sonnet-4-6. Single ReAct loop with bash tool use inside the per-task SWE-bench Docker container."
+      },
+      "results": [
+        {
+          "instance_id": "instance_qutebrowser__qutebrowser-473a15f7908f2bb6d670b0e908ab34a28d8cf7e2-v363c8a7e5ccdf6968fc7ab84a2053ac78036691d",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '951a5990-31e2-476e-86f8-467562cd9cfd', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_element-hq__element-web-a692fe21811f88d92e8f7047fc615e4f1f986b0f-vnan",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': 'a4386705-1113-4787-a82a-6ca8c38c7142', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_flipt-io__flipt-84806a178447e766380cc66b14dee9c6eeb534f4",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '19d7882d-9204-4cde-939f-cebf1f187af3', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_gravitational__teleport-b8fbb2d1e90ffcde88ed5fe9920015c1be075788-vee9b09fb20c43af7e520f57e9239bbcf46b7113d",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '6672c4ec-4d60-4063-9019-7458644d9144', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_element-hq__element-web-75c2c1a572fa45d1ea1d1a96e9e36e303332ecaa-vnan",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '16317584-d218-47fc-a336-347870ea0a9e', 'status': 'failed'}"
+        }
+      ]
+    },
+    {
+      "status": "completed",
+      "accuracy": 0.0,
+      "passed": 0,
+      "total": 5,
+      "participant": {
+        "name": "mini-swe-agent-baseline",
+        "version": "0.1.0",
+        "description": "Baseline coding agent built on Princeton's mini-swe-agent, driven by anthropic/claude-sonnet-4-6. Single ReAct loop with bash tool use inside the per-task SWE-bench Docker container."
+      },
+      "results": [
+        {
+          "instance_id": "instance_future-architect__vuls-0ec945d0510cdebf92cdd8999f94610772689f14",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '50913b4f-a4a2-4aa6-8e79-4b85c1f656d4', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_ansible__ansible-f86c58e2d235d8b96029d102c71ee2dfafd57997-v0f01c69f1e2528b935359cfe578530722bca2c59",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '140b917a-6573-488a-93fc-9c2b1fa0700b', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_NodeBB__NodeBB-f48ed3658aab7be0f1165d4c1f89af48d7865189-v0495b863a912fbff5749c67e860612b91825407c",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '8588d4dc-fbe1-472b-8424-e7310d689261', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_qutebrowser__qutebrowser-f7753550f2c1dcb2348e4779fd5287166754827e-v059c6fdc75567943479b23ebca7c07b5e9a7f34c",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': 'f33704af-68c2-4a31-abe3-33fc22447e37', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_future-architect__vuls-8d5ea98e50cf616847f4e5a2df300395d1f719e9",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '37cdb6e8-625f-4a04-b327-a4f00e5b3f9f', 'status': 'failed'}"
+        }
+      ]
+    },
+    {
+      "status": "completed",
+      "accuracy": 0.0,
+      "passed": 0,
+      "total": 5,
+      "participant": {
+        "name": "mini-swe-agent-baseline",
+        "version": "0.1.0",
+        "description": "Baseline coding agent built on Princeton's mini-swe-agent, driven by anthropic/claude-sonnet-4-6. Single ReAct loop with bash tool use inside the per-task SWE-bench Docker container."
+      },
+      "results": [
+        {
+          "instance_id": "instance_flipt-io__flipt-e50808c03e4b9d25a6a78af9c61a3b1616ea356b",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': 'c8c384bb-c4dd-4312-bace-9f92ed7e6201', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_gravitational__teleport-2be514d3c33b0ae9188e11ac9975485c853d98bb-vce94f93ad1030e3136852817f2423c1b3ac37bc4",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '7939ac83-2732-4e05-a584-93de5b0a3394', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_future-architect__vuls-be7b9114cc9545e68fb0ee7bc63d7ec53d1a00ad",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '955b7103-c2a7-4b30-9f0a-df1b79af1d5d', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_internetarchive__openlibrary-f8cc11d9c1575fdba5ac66aee0befca970da8d64-v13642507b4fc1f8d234172bf8129942da2c2ca26",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': 'b7dab794-cd00-476c-abac-c4c986003a09', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_future-architect__vuls-e52fa8d6ed1d23e36f2a86e5d3efe9aa057a1b0d",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '1c214760-2519-46d2-9273-48f8b390f9ab', 'status': 'failed'}"
+        }
+      ]
+    },
+    {
+      "status": "completed",
+      "accuracy": 0.0,
+      "passed": 0,
+      "total": 5,
+      "participant": {
+        "name": "mini-swe-agent-baseline",
+        "version": "0.1.0",
+        "description": "Baseline coding agent built on Princeton's mini-swe-agent, driven by anthropic/claude-sonnet-4-6. Single ReAct loop with bash tool use inside the per-task SWE-bench Docker container."
+      },
+      "results": [
+        {
+          "instance_id": "instance_ansible__ansible-e64c6c1ca50d7d26a8e7747d8eb87642e767cd74-v0f01c69f1e2528b935359cfe578530722bca2c59",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': 'f44871e4-dd2f-4a9d-835a-0592041bbcb5', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_internetarchive__openlibrary-1351c59fd43689753de1fca32c78d539a116ffc1-v29f82c9cf21d57b242f8d8b0e541525d259e2d63",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '03f4bc60-14f3-479d-bc27-83eedbdd4e7e', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_element-hq__element-web-2760bfc8369f1bee640d6d7a7e910783143d4c5f-vnan",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '25cc79fb-d12a-44f9-9dbf-5ccea7a0456f', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_tutao__tutanota-da4edb7375c10f47f4ed3860a591c5e6557f7b5c-vbc0d9ba8f0071fbe982809910959a6ff8884dbbf",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': 'b0d8c562-08d6-42fa-911f-7e6dbe41d901', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_element-hq__element-web-1077729a19c0ce902e713cf6fab42c91fb7907f1-vnan",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': 'd0cdee29-1ba9-406b-8fd8-ae69ad8fde31', 'status': 'failed'}"
+        }
+      ]
+    },
+    {
+      "status": "completed",
+      "accuracy": 0.0,
+      "passed": 0,
+      "total": 5,
+      "participant": {
+        "name": "mini-swe-agent-baseline",
+        "version": "0.1.0",
+        "description": "Baseline coding agent built on Princeton's mini-swe-agent, driven by anthropic/claude-sonnet-4-6. Single ReAct loop with bash tool use inside the per-task SWE-bench Docker container."
+      },
+      "results": [
+        {
+          "instance_id": "instance_element-hq__element-web-71fe08ea0f159ccb707904d87f0a4aef205a167c-vnan",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': 'aee80d00-0300-4eb6-9e24-a1a5e3507942', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_tutao__tutanota-09c2776c0fce3db5c6e18da92b5a45dce9f013aa-vbc0d9ba8f0071fbe982809910959a6ff8884dbbf",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '9ca3f5c6-4ac6-451e-9348-4990c558969c', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_navidrome__navidrome-97434c1789a6444b30aae5ff5aa124a96a88f504",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '8414cca7-eb43-479b-a0d2-ad038d788d2a', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_qutebrowser__qutebrowser-85b867fe8d4378c8e371f055c70452f546055854-v2ef375ac784985212b1805e1d0431dc8f1b3c171",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '4103b0f2-bd51-42b8-9eda-f7e0de5736cf', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_gravitational__teleport-1a77b7945a022ab86858029d30ac7ad0d5239d00-vee9b09fb20c43af7e520f57e9239bbcf46b7113d",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '8f01734e-ce2c-4c23-9cc2-864df29fa3c0', 'status': 'failed'}"
+        }
+      ]
+    },
+    {
+      "status": "completed",
+      "accuracy": 0.0,
+      "passed": 0,
+      "total": 5,
+      "participant": {
+        "name": "mini-swe-agent-baseline",
+        "version": "0.1.0",
+        "description": "Baseline coding agent built on Princeton's mini-swe-agent, driven by anthropic/claude-sonnet-4-6. Single ReAct loop with bash tool use inside the per-task SWE-bench Docker container."
+      },
+      "results": [
+        {
+          "instance_id": "instance_qutebrowser__qutebrowser-e64622cd2df5b521342cf4a62e0d4cb8f8c9ae5a-v363c8a7e5ccdf6968fc7ab84a2053ac78036691d",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': 'f5d3282c-a28d-4a88-bd84-a9a558fc3b26', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_flipt-io__flipt-b22f5f02e40b225b6b93fff472914973422e97c6",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '5d4e6577-f59d-4ca0-ad13-cd6510840a39', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_element-hq__element-web-f0359a5c180b8fec4329c77adcf967c8d3b7b787-vnan",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': 'cda6b712-cfed-4cbf-9215-808e5ca47c4b', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_protonmail__webclients-09fcf0dbdb87fa4f4a27700800ee4a3caed8b413",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '045e817e-b951-4643-a243-e3e7f240ce38', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_navidrome__navidrome-5001518260732e36d9a42fb8d4c054b28afab310",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '01ced3a9-fb96-4652-ad60-9aa44deacf00', 'status': 'failed'}"
+        }
+      ]
+    },
+    {
+      "status": "completed",
+      "accuracy": 0.0,
+      "passed": 0,
+      "total": 5,
+      "participant": {
+        "name": "mini-swe-agent-baseline",
+        "version": "0.1.0",
+        "description": "Baseline coding agent built on Princeton's mini-swe-agent, driven by anthropic/claude-sonnet-4-6. Single ReAct loop with bash tool use inside the per-task SWE-bench Docker container."
+      },
+      "results": [
+        {
+          "instance_id": "instance_ansible__ansible-12734fa21c08a0ce8c84e533abdc560db2eb1955-v7eee2454f617569fd6889f2211f75bc02a35f9f8",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': 'dcddae16-82bf-4955-a9ce-7cae752ce04e', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_navidrome__navidrome-fa85e2a7816a6fe3829a4c0d8e893e982b0985da",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': 'bd4bba7d-2309-458e-a6a5-e62c274de8dc', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_NodeBB__NodeBB-2657804c1fb6b84dc76ad3b18ecf061aaab5f29f-vf2cf3cbd463b7ad942381f1c6d077626485a1e9e",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '6fbd1777-789a-40a0-884b-faee7841e674', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_ansible__ansible-0fd88717c953b92ed8a50495d55e630eb5d59166-vba6da65a0f3baefda7a058ebbd0a8dcafb8512f5",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': 'ed3d9d14-0659-4bc4-8772-d6d5a8da1b6a', 'status': 'failed'}"
+        },
+        {
+          "instance_id": "instance_future-architect__vuls-6eff6a9329a65cc412e79b8f82444dfa3d0f0b5a",
+          "passed": false,
+          "fail_to_pass_ok": false,
+          "pass_to_pass_ok": false,
+          "error": "Participant communication error: http://127.0.0.1:8080/coding_agent responded with: {'response': 'Agent error: litellm.AuthenticationError: Missing Anthropic API Key - A call is being made to anthropic but no key is set either in the environment variables or via params. Please set `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN` in your environment vars You can permanently set your API key with `mini-extra config set KEY VALUE`.', 'context_id': '15dc1659-658b-4ba0-be4f-849652ef27ee', 'status': 'failed'}"
+        }
+      ]
+    }
+  ]
+}
