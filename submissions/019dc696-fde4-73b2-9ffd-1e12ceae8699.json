@@ -1,0 +1,144 @@
+{
+  "manifest_version": "0.1.0",
+  "config_schema": {
+    "type": "object",
+    "properties": {
+      "coding_agent_advisor_model": {
+        "type": "string"
+      },
+      "coding_agent_agent_run_root": {
+        "type": "string",
+        "default": "/tmp/red-green-agent"
+      },
+      "coding_agent_command_timeout_seconds": {
+        "type": "integer",
+        "default": 120
+      },
+      "coding_agent_llm_provider": {
+        "type": "string",
+        "default": "openrouter"
+      },
+      "coding_agent_max_file_bytes": {
+        "type": "integer",
+        "default": 120000
+      },
+      "coding_agent_max_iterations": {
+        "type": "integer",
+        "default": 4
+      },
+      "coding_agent_max_output_chars": {
+        "type": "integer",
+        "default": 12000
+      },
+      "coding_agent_model_name": {
+        "type": "string",
+        "default": "qwen/qwen3.6-plus"
+      },
+      "coding_agent_ollama_base_url": {
+        "type": "string",
+        "default": "http://localhost:11434"
+      },
+      "coding_agent_openai_api_key": {
+        "type": "string",
+        "secret": true
+      },
+      "coding_agent_openai_base_url": {
+        "type": "string",
+        "default": "https://api.openai.com/v1"
+      },
+      "coding_agent_openrouter_api_key": {
+        "type": "string",
+        "secret": true
+      },
+      "coding_agent_openrouter_base_url": {
+        "type": "string",
+        "default": "https://openrouter.ai/api/v1"
+      },
+      "coding_agent_orchestrator_model": {
+        "type": "string"
+      },
+      "coding_agent_worker_model": {
+        "type": "string"
+      },
+      "coding_agent_workspace": {
+        "type": "string",
+        "default": "/workspace"
+      }
+    },
+    "required": [],
+    "additionalProperties": false
+  },
+  "components": {
+    "gateway": {
+      "manifest": "https://raw.githubusercontent.com/RDI-Foundation/agentbeats-gateway/refs/tags/v0.3/amber-manifest.json5",
+      "config": {
+        "assessment_config": {
+          "num_shards": 20,
+          "num_instances": 300
+        },
+        "participant_roles": {
+          "green": "green",
+          "purple1": "coding_agent"
+        },
+        "callback_urls": {}
+      }
+    },
+    "green": {
+      "manifest": "https://raw.githubusercontent.com/RDI-Foundation/swe-bench-green-agent/refs/heads/main/amber-manifest.json5",
+      "config": {}
+    },
+    "coding_agent": {
+      "manifest": "https://raw.githubusercontent.com/para1992/red-green-agent/main/amber-manifest.json5",
+      "config": {
+        "advisor_model": "${config.coding_agent_advisor_model}",
+        "agent_run_root": "${config.coding_agent_agent_run_root}",
+        "command_timeout_seconds": "${config.coding_agent_command_timeout_seconds}",
+        "llm_provider": "${config.coding_agent_llm_provider}",
+        "max_file_bytes": "${config.coding_agent_max_file_bytes}",
+        "max_iterations": "${config.coding_agent_max_iterations}",
+        "max_output_chars": "${config.coding_agent_max_output_chars}",
+        "model_name": "${config.coding_agent_model_name}",
+        "ollama_base_url": "${config.coding_agent_ollama_base_url}",
+        "openai_api_key": "${config.coding_agent_openai_api_key}",
+        "openai_base_url": "${config.coding_agent_openai_base_url}",
+        "openrouter_api_key": "${config.coding_agent_openrouter_api_key}",
+        "openrouter_base_url": "${config.coding_agent_openrouter_base_url}",
+        "orchestrator_model": "${config.coding_agent_orchestrator_model}",
+        "worker_model": "${config.coding_agent_worker_model}",
+        "workspace": "${config.coding_agent_workspace}"
+      }
+    }
+  },
+  "bindings": [
+    {
+      "to": "#gateway.green",
+      "from": "#green.a2a"
+    },
+    {
+      "to": "#gateway.purple1",
+      "from": "#coding_agent.a2a"
+    },
+    {
+      "to": "#green.proxy",
+      "from": "#gateway.proxy",
+      "weak": true
+    },
+    {
+      "to": "#coding_agent.proxy",
+      "from": "#gateway.proxy",
+      "weak": true
+    }
+  ],
+  "exports": {
+    "results": "#gateway.results"
+  },
+  "metadata": {
+    "agentbeats_ids": {
+      "green": "019d8684-8230-71d2-a17b-099f5839398b",
+      "coding_agent": "019dc466-da8c-75a1-a155-1fa73fc1475d"
+    }
+  },
+  "experimental_features": [
+    "docker"
+  ]
+}
