@@ -1,0 +1,74 @@
+{
+  "manifest_version": "0.1.0",
+  "config_schema": {
+    "type": "object",
+    "properties": {
+      "coding_agent_google_api_key": {
+        "type": "string",
+        "secret": true
+      }
+    },
+    "required": [
+      "coding_agent_google_api_key"
+    ],
+    "additionalProperties": false
+  },
+  "components": {
+    "gateway": {
+      "manifest": "https://raw.githubusercontent.com/RDI-Foundation/agentbeats-gateway/refs/tags/v0.3/amber-manifest.json5",
+      "config": {
+        "assessment_config": {
+          "num_shards": 5,
+          "num_instances": 10
+        },
+        "participant_roles": {
+          "green": "green",
+          "purple1": "coding_agent"
+        },
+        "callback_urls": {}
+      }
+    },
+    "green": {
+      "manifest": "https://raw.githubusercontent.com/RDI-Foundation/swe-bench-green-agent/refs/heads/main/amber-manifest.json5",
+      "config": {}
+    },
+    "coding_agent": {
+      "manifest": "https://raw.githubusercontent.com/sarangmenon555/LoopForge/refs/heads/main/amber-manifest.json5",
+      "config": {
+        "google_api_key": "${config.coding_agent_google_api_key}"
+      }
+    }
+  },
+  "bindings": [
+    {
+      "to": "#gateway.green",
+      "from": "#green.a2a"
+    },
+    {
+      "to": "#gateway.purple1",
+      "from": "#coding_agent.a2a"
+    },
+    {
+      "to": "#green.proxy",
+      "from": "#gateway.proxy",
+      "weak": true
+    },
+    {
+      "to": "#coding_agent.proxy",
+      "from": "#gateway.proxy",
+      "weak": true
+    }
+  ],
+  "exports": {
+    "results": "#gateway.results"
+  },
+  "metadata": {
+    "agentbeats_ids": {
+      "green": "019d8684-8230-71d2-a17b-099f5839398b",
+      "coding_agent": "019e0a77-cb00-7b41-8b2a-e2669277f8bd"
+    }
+  },
+  "experimental_features": [
+    "docker"
+  ]
+}
